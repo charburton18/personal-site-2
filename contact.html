@@ -17,35 +17,50 @@
     <h1>charlotte burton</h1>
     <p id="jobtitle">fullstack software engineer</p>
     <nav>
-      <a>home</a>
+      <a href=".index.html">home</a>
       <a href="./about.html">about</a>
       <a href="./portfolio.html">portfolio</a>
+      <a>contact</a>
     </nav>
   </header>
 
   <main>
-    <section id="homebox">
-      <img id="headshot" src="./personal-website-images/burton_headshot.jpeg" alt="A smiling young woman with long blonde hair, wearing a black dress, and a pearl necklace"/>
-      <section id="biobox">
-        <p id="bio1">My name is Charlotte and I am a software engineering student, clarinetist, and animal lover 
-        with a history in veterinary care, music education, and clarinet performance. 
-        </p>
-        <p id="bio2">
-        Teaching in Phoenix during the pandemic, I saw how inaccessible technology is for our 
-        underserved youth, so I want to intentionally create technology that everyone can easily use 
-        and access. 
-        </p>
-     </section>
-    </section>
 
-    <h3 id="mission">I will foster accessibility, diversity, health, and innovation in the tech industry.
-    </h3>
+    <h2 id="contact">contact</h2>
 
-  
-  </main>
+    <br /><br />
+    
+    <section class="boxOf3sections">
+      <section class="sectionA">
+        <img src="./personal-website-2-images/burton_sai_headshot_373pxjpeg.jpeg"
+        alt="A young blonde-haired woman smiling." 
+        />
+        <section class="sectionAtitleandtext">
+          <h2 class="subtitleA">contact me</h2>
+              <form id="formbox" class="sectionAtext">
+                <label for="text" value="Your name">Your name:</label><br />
+                <input type="text" id="userFName" value="Name" /><br /><br />
+
+                <label for="userEmail" value="Email">Your email address:</label><br />
+                <input type="email" id="userEmail" value="Email" /><br /><br />
+      
+                <label for="text">Your message here:</label><br />
+                <textarea id="text" name="Your message here:" rows="10" cols="60"></textarea>
+
+                <section id="submitbutton">
+                  <input type="submit" />
+                </section>
+              </form>
+        </section>
+      </section>
+
+      <br /><br />
+
+
+  <br /><br />
 
   <footer>
-    <a id ="backtotop" href="#top">back to top</a>
+    <a id="backtotop" href="#top">back to top</a>
   </footer>
 
 </body>
