@@ -48,6 +48,7 @@ img {
 }
 
 /* css for index.html */
+
 #homebox {
   display: flex;
   background-color: rgb(255, 255, 255, 50%);
@@ -88,7 +89,7 @@ img {
 
 /* css for portfolio.html and about.html */
 
-#portfolio, #about, #contact {
+.webpageheading {
   font-size: 46px;
   text-align: center;
   color: white;
@@ -172,8 +173,4 @@ svg {
 
 #successmessage {
   text-align: center;
-}
-
-#submitbutton {
-  
 }
