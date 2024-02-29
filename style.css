@@ -1,0 +1,159 @@
+/* css for ALL webpages */
+
+body {
+  background-color: rgb(199, 199, 199);
+}
+
+h1, h2, h3, p, nav, a {
+  font-family: 'Red Hat Display', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 72px;
+  background-color: darkgrey;
+  color: white;
+  margin: 0;
+  padding: 1% 1% 0 1%;
+}
+
+#jobtitle {
+  font-size: 32px;
+  margin: 0;
+  color: white;
+  padding: 0 0 0 1%;
+}
+
+nav {
+  color: white;
+  padding: 1% 0 0 1%;
+  font-size: 20px;
+}
+
+a {
+  color: white;
+}
+
+img {
+  width: 300px;
+  border-radius: 10%;
+  border: solid white 3mm;
+}
+
+#backtotop {
+  border: solid white 1mm;
+  border-radius: 2%
+}
+
+/* css for index.html */
+#homebox {
+  display: flex;
+  background-color: rgb(255, 255, 255, 50%);
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 15% 0 15%;
+  padding: 4% 5% 4% 5%;
+  border-radius: 1%;
+}
+
+#headshot {
+  width: 300px;
+  border-radius: 10%;
+  border: solid white 3mm;
+}
+
+#biobox {
+  display: flex;
+  flex-direction: column;
+}
+
+#bio1, #bio2 {
+  background-color: white;
+  margin: 10% 5% 5% 5%;
+  padding: 5%;
+  border-radius: 1% 20% 1% 20%;
+  font-size: 17px;
+}
+
+#mission {
+  text-align: center;
+  color: white;
+  background-color: darkgrey;
+  margin: 2% 20% 2% 20%;
+  font-size: 28px;
+}
+
+/* css for portfolio.html and about.html */
+
+#portfolio, #about {
+  font-size: 46px;
+  text-align: center;
+  color: white;
+  width: 12%;
+  margin: 0 45% 0 45%;
+  padding: 0;
+  border: solid white 1mm;
+  border-radius: 2%
+  
+}
+
+svg {
+  width: 40px;
+  height: 40px;
+}
+
+.sectionA {
+  display: flex;
+  background-color: rgb(255, 255, 255, 50%);
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 15% 0 15%;
+  padding: 4% 5% 4% 5%;
+  border-radius: 1%;
+}
+
+.sectionAtitleandtext {
+  display: flex;
+  flex-direction: column;
+}
+
+.sectionAtext {
+  background-color: white;
+  margin: 5% 5% 5% 5%;
+  padding: 5%;
+  border-radius: 1% 20% 1% 20%;
+  font-size: 17px;
+}
+
+.subtitleA {
+  padding: 5% 0 0 5%;
+  margin: 0;
+}
+
+.subtitleB {
+  padding: 5% 0 0 73%;
+  margin: 0;
+}
+
+.sectionB {
+  display: flex;
+  background-color: rgb(255, 255, 255, 50%);
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  margin: 0 15% 0 15%;
+  padding: 4% 5% 4% 5%;
+  border-radius: 1%;
+}
+
+.sectionBtext {
+  background-color: white;
+  margin: 5% 5% 5% 5%;
+  padding: 5%;
+  border-radius: 20% 1% 20% 1%;
+  font-size: 17px;
+}
