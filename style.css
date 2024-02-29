@@ -4,6 +4,27 @@ body {
   background-color: rgb(199, 199, 199);
 }
 
+/* here are my media queries, I would like to spend more time on making a responsive website*/
+/* screen sizes 600px and down */
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: rgb(255, 225, 225);
+  }
+}
+/* screen sizes 600px and up */
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: rgb(226, 225, 255);
+  }
+}
+
+/* screen sizes 992px and up */
+@media only screen and (min-width: 992px) {
+  body {
+    background-color: rgb(199, 199, 199);
+  }
+}
+
 h1, h2, h3, p, nav, a, form, input, button, textarea {
   font-family: 'Red Hat Display', sans-serif;
   font-optical-sizing: auto;
@@ -106,17 +127,23 @@ svg:hover {
 }
 
 /* css for portfolio.html and about.html */
+.webpageheadingbox{
+  display: flex;
+  width: 13%;
+  justify-content: center;
+  border: solid white 1mm;
+  border-radius: 2%;
+  margin: 0 45% 0 45%;
+}
 
 .webpageheading {
   font-size: 46px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
   color: white;
   width: 12%;
-  margin: 0 45% 0 45%;
+  margin: 0;
   padding: 0;
-  border: solid white 1mm;
-  border-radius: 2%
-  
 }
 
 .portfoliopic:hover {
