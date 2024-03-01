@@ -10,7 +10,42 @@ body {
   body {
     background-color: rgb(255, 225, 225);
   }
+
+  .sectionA {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .subtitleA {
+    order: 0;
+  }
+
+  .portfoliopic {
+    order: 1;
+  }
+
+  .sectionAtext {
+    order: 2;
+  }
+
+  .sectionB {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
 }
+/*
+.sectionA {
+  display: flex;
+  background-color: rgb(255, 255, 255, 50%);
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0 15% 0 15%;
+  padding: 4% 5% 4% 5%;
+  border-radius: 1%;
+}
+*/
+
 /* screen sizes 600px and up */
 @media only screen and (min-width: 600px) {
   body {
@@ -70,7 +105,13 @@ a:hover {
 
 #backtotop {
   border: solid white 1mm;
-  border-radius: 2%
+  border-radius: 2%;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 
 /* css for index.html */
@@ -131,19 +172,19 @@ svg:hover {
   display: flex;
   width: 13%;
   justify-content: center;
-  border: solid white 1mm;
   border-radius: 2%;
   margin: 0 45% 0 45%;
-}
+} 
+
 
 .webpageheading {
   font-size: 46px;
   display: flex;
   justify-content: center;
   color: white;
-  width: 12%;
+  border: solid white 1mm;
   margin: 0;
-  padding: 0;
+  padding: 0 5% 0 5%;
 }
 
 .portfoliopic:hover {
